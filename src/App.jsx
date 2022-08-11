@@ -13,7 +13,7 @@ import Logout from "./components/Logout";
 
 function App() {
   return (
-    <> 
+    <> <div className="flex justify-start">
     <BrowserRouter>
     <Routes>
       <Route  path="/"  element={<Navigate to="/lectures" />}/>
@@ -34,6 +34,7 @@ function App() {
 
     </Routes> 
     </BrowserRouter>
+    </div>
     </>
   );
 }

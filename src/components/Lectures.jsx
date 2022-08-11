@@ -5,7 +5,7 @@ import React from 'react'
 export default function Lectures() {
   return (
     <div>
-        <div className='bg-yellow-300 h-screen  flex justify-center items-center w-60'>
+        <div className='bg-yellow-300 h-screen  w-screen'>
         {/* <Navlink to ="lec" > lec</Navlink> */}
     <h1>Lectures Page </h1>
     </div>
