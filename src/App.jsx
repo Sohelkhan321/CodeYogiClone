@@ -10,6 +10,7 @@ import NotFound from "./components/NotFound";
 import Dailyupdate from "./components/Dailyupdate";
 import Profile from "./components/Profile";
 import Logout from "./components/Logout";
+import DetailAssignmets from "./components/DetailAssignmets";
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
         <Route path="/Daily"  element={<Dailyupdate />} />
         <Route path="/Profile"  element={<Profile />} />
         <Route path="/Logout" element={<Logout />} />
+        <Route 
+         path="/Assignment/:assignemt_number/details"
+         element ={<DetailAssignmets />}
+        />
       </Route>
      
      <Route path="*" element={<NotFound />}/>
